@@ -10,7 +10,6 @@ fun main(args: Array<String>) {
 
 open class base(var hp: Int, val power: Int) {
 
-
     fun attack(base: base) {
         defense(power)
     }
